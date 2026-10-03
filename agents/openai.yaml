@@ -1,0 +1,4 @@
+interface:
+  display_name: Stake Engine Game Development
+  short_description: Build and validate Stake Engine games
+  default_prompt: Use $stake-engine-game-development to build or review a Stake Engine game with compliant math, static frontend, RGS integration, replay support, and approval readiness.
