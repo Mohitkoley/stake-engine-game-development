@@ -47,6 +47,13 @@ Invoke with the game on the path:
 cd math-sdk
 PYTHONPATH=games/<GameName> env/bin/python games/<GameName>/run.py
 ```
+
+Windows PowerShell:
+
+```powershell
+$env:PYTHONPATH = "games/<GameName>"
+& .\env\Scripts\python.exe games\<GameName>\run.py
+```
 This writes `games/<GameName>/library/` → `publish_files/index.json`, `lookUpTable_<mode>_0.csv`, `books_<mode>.jsonl.zst`, and the uncompressed `books/books_<mode>.json` used by the dev RGS.
 
 ### Optimizer choice

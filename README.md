@@ -27,6 +27,20 @@ npx skills add https://github.com/Mohitkoley/stake-engine-game-development \
 
 The repository is public, so no GitHub authentication is required for installation.
 
+The same command works in Windows PowerShell. Install Node.js first, then open PowerShell and run:
+
+```powershell
+npx skills add https://github.com/Mohitkoley/stake-engine-game-development --all --full-depth -g
+```
+
+For a complete game development environment on Windows, install Git, Node.js 18.18+, Python 3.11+, and optionally Rust. Then install the frontend package manager:
+
+```powershell
+npm install --global pnpm@10.5.0
+```
+
+The setup skill includes Windows PowerShell equivalents for cloning the Math SDK, creating the Python virtual environment, running simulations, and starting the frontend.
+
 ## Update
 
 Run the install command again to refresh the globally installed skills:
